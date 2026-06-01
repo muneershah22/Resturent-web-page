@@ -131,10 +131,14 @@ width: 500px;
   height: 600px;
   width: 300px;
 }
-/* .grid{
+.grid{
   display: grid;
   gap: 10px;
-  grid-template-areas: "I1 I1 I2 I2";
+  grid-template-areas: 
+  "I1 I1 I2 I3"
+  "I1 I1 I2 I7"
+  "I4 I5 I6 I7"
+  ;
 }
 .item1{
   grid-area: I1;
@@ -156,7 +160,7 @@ width: 500px;
 }
 .item7{
   grid-area: I7;
-} */
+}
 footer{
   background-color: rgb(230, 230, 148);
 }
